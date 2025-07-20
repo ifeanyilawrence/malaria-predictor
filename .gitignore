@@ -40,7 +40,7 @@ env/
 *.egg-info/
 
 # Model files
-# *.keras
+*.keras
 *.h5
 *.pth
 *.pt
