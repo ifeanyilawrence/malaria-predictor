@@ -9,9 +9,9 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy model and code
-COPY malaria_classifier.keras ./
+# Copy code
 COPY app.py ./
+COPY predict.py ./
 
 # Expose port
 EXPOSE 8000
