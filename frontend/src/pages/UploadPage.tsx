@@ -14,9 +14,8 @@
 */
 
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:8088/predict"; // Update if deploying backend elsewhere
+const API_URL = "https://malaria-predictor-api.ifeanyilawrence.com/predict"; // Update if deploying backend elsewhere
 
 const UploadPage: React.FC = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
