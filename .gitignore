@@ -1,0 +1,47 @@
+# Node modules and build output
+node_modules/
+dist/
+build/
+.env
+.env.*
+.DS_Store
+*.log
+.cache/
+yarn.lock
+package-lock.json
+.vite/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
+*.sublime-workspace
+*.sublime-project
+
+# Tailwind JIT cache
+.tailwind-cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.egg-info/
+
+# Model files
+*.keras
+*.h5
+*.pth
+*.pt
+
